@@ -6,6 +6,7 @@ If you want to run this code successfully, you have to create the database in SQ
 should be made in web.config file. Here, I have put the SQL Script for creating table and store procedure. You have to 
 create Database in SQL Server your seleft and run the below scring into that database. 
 
+<pre>
 /****** Object:  StoredProcedure [dbo].[spContacts_DeleteByField]    Script Date: 09/28/2013 15:47:28 ******/
 SET ANSI_NULLS ON
 GO
@@ -197,3 +198,4 @@ DELETE FROM [dbo].[Contacts]
  WHERE 
 	[Id] = @Id
 GO
+</pre>
